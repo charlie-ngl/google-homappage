@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="google-icon.ico">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration:none;
+            color: #000;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a.active-link{
+            text-decoration: none;
+            color:blue;
+        }
+
+        a.active-link:hover{
+            text-decoration: underline;
+        }
+
+        div.top-section{
+            text-align: right;
+            font-size: 13px;
+        }
+
+        .top-content{
+            margin: 25px 20px 0 0;
+        }
+
+        div.middle-section{
+            justify-content: center;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        img.google-logo{
+            margin-top: 30px;
+        }
+
+        i{
+            position:absolute;
+            padding-top: 32px;
+            padding-left: 10px;
+            color: #c3ccdb;
+        }
+
+        input.google-search{
+            margin-top: 20px;
+            width: 40%;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #c3ccdb;
+            padding: 3px 0px 3px 40px;
+        }
+
+        button.btn{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            background-color: #fffcfc;
+            border:none;
+            padding: 11px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        button.btn:hover{
+            border: 1px solid #c3ccdb;
+            border-radius: 3px;  
+            padding: 10px;   
+        }
+
+        div.offer{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.bottom-section{
+            margin: 0;
+            bottom:0;
+            font-size: 15px;
+            color: rgba(0,0,0,.54);
+            position:fixed;
+            width:100%;
+            background: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.country{
+            margin: 15px;
+        }
+
+        div.links{
+            margin:15px;
+        }
+
+        div.links a{
+            color: rgba(0,0,0,.54);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="top-section">
+        <a class="top-content" href="#">Gmail</a>
+        <a class="top-content" href="#">Images</a>
+    </div>
+
+    <div class="middle-section">
+        <div class="img-logo">
+            <img class="google-logo" src="Google-logo.png" width="250">
+        </div>
+
+        <div class="form">
+            <form action="#">
+                <i class="icon-search"></i>
+                <input type="text" name="keywords" class="google-search">
+
+                <div class="button">
+                    <button class="btn">Google Search</button>
+                    <button class="btn">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+        <div class="offer">
+            Google offered in: <a class="active-link" href="#">Indonesia</a> &emsp;<a href="#" class="active-link">Bataknese</a>
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <div class="country">
+            <p style="margin-left:20px;">Indonesia</p>
+        </div>
+        <hr style="height:1px;border:none;background-color:#999191;" />
+        <div class="links">
+            <p style="margin-left: 25px;">
+                <a href="#">About</a>
+                <a style="margin-left: 25px;" href="#">Advertising</a>
+                <a style="margin-left: 25px;" href="#">Business</a>
+                <a style="margin-left: 25px;" href="#">How Search works</a>
+                <a style="margin-left: 700px;" href="#">Privacy</a>
+                <a style="margin-left: 25px;" href="#">Term</a>
+                <a style="margin-left: 25px;" href="#">Settings</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
